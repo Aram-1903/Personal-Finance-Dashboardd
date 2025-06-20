@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Personal Finance Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Finance Dashboard</h1>
+    <button id="toggle-mode">🌙</button>
+  </header>
+
+  <main>
+    <div class="cards">
+      <div class="card">💰 Balance: 100000</div>
+      <div class="card">📈 Income: $75000</div>
+      <div class="card">📉 Expenses: $15000</div>
+      <div class="card">🏦 Loan:$20000</div>
+      <div class="card">🤑 Savings:$5000</div>
+    </div>
+
+    <section class="transactions">
+      <h2>Recent Transactions</h2>
+      <ul>
+        <li>+ $3000 Freelance Work</li>
+        <li>- $500 Grocery</li>
+        <li>- $2000 Electricity Bill</li>
+        <li>+ $2000 Online Course</li>
+        <li>- $1000 Internet Bill</li>
+        <li>- $2000 Entertaiment</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Pie Chart</h2>
+      <div class="pie-chart"></div>
+      <div class="legend">
+    <div><span class="income"></span>Income (50%)</div>
+    <div><span class="expenses"></span>Expenses (25%)</div>
+    <div><span class="savings"></span>Savings (10%)</div>
+    <div><span class="loan"></span>Loan(15%)</div>
+  </div>
+    </section>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
